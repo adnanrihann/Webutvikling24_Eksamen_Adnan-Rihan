@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asrinos - din butikk for de nyeste og beste produktene.">
+    <title>Checkout</title>
+    <link href="../ikoner/css/fontawesome.css" rel="stylesheet">
+    <link href="../ikoner/css/brands.css" rel="stylesheet">
+    <link href="../ikoner/css/regular.css" rel="stylesheet">
+    <link href="../ikoner/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header id="global-header">
+            <div id="logo-container">
+                <h1 id="logo"><a href="index.html">ASRINOS</a></h1>
+            </div>
+            <nav id="nav">
+                <ul id="global-ul">
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="index.html#kampanjeseksjon">Produkter</a></li>
+                    <li><a href="index.html#forside-kategorier">Kategorier</a></li>
+                    <li><a href="#footer-info">Kontakt oss</a></li>
+
+                    <li><ul id="nav-ikoner">
+                        <li><a href="checkout.html" aria-label="Gå til handlekurv"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                        <li><a href="checkout.html" aria-label="Synes godt om"><i class="fa-solid fa-thumbs-up"></i></a></li>
+                        <li><a href="checkout.html" aria-label="Brukerprofil"><i class="fa-solid fa-user"></i></a></li>
+                    </ul></li>
+
+                </ul>
+                <form id="search-form" role="search">
+                    <label for="search" class="visually-hidden">Søk</label>
+                    <input type="text" id="search" name="search" placeholder="Søke her...">
+                    <button type="submit" aria-label="Søk"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                
+            </nav>
+        </header>
+        
+
+        <main>
+            <a href="index.html"><i class="fa-solid fa-arrow-left-long"></i> Fortsett å handle</a>
+            <h2 id="kasse-title">Kasse</h2>
+            
+            <section class="produkter">
+                <h3>1. HANDLEBAGEN DIN</h3>
+
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="pris">2399 NOK</p>
+                    <p>Farge: svart-oransje</p>
+                    <form>
+                        <label for="size1">Størrelse:
+                            <select name="sizes" id="size1" required>
+                                <option value="" >Størrelse:</option>
+                                <option value="x-small">XS</option>
+                                <option value="small">S</option>
+                                <option value="medium">M</option>
+                                <option value="large">L</option>
+                                <option value="x-large">XL</option>
+                            </select>
+                        </label>
+                        <label for="quantity1">Antall:
+                            <input type="number" name="number" min="0" id="quantity1" required>
+                        </label>
+                    </form>
+                    <a href="checkout.html"><i class="fa-solid fa-trash"></i></a>
+                    <a href="checkout.html" aria-label="Synes godt om"><i class="fa-solid fa-thumbs-up"></i></a>
+                </article>
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="pris">2399 NOK</p>
+                    <p>Farge: svart-oransje</p>
+                    <form>
+                        <label for="size2">Størrelse:
+                            <select name="sizes" id="size2" required>
+                                <option value="" >Størrelse:</option>
+                                <option value="x-small">XS</option>
+                                <option value="small">S</option>
+                                <option value="medium">M</option>
+                                <option value="large">L</option>
+                                <option value="x-large">XL</option>
+                            </select>
+                        </label>
+                        <label for="quantity2">Antall:
+                            <input type="number" name="number" min="0" id="quantity2" required>
+                        </label>
+                    </form>
+                    <a href="checkout.html"><i class="fa-solid fa-trash"></i></a>
+                    <a href="checkout.html" aria-label="Synes godt om"><i class="fa-solid fa-thumbs-up"></i></a>
+                </article>  
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="pris">2399 NOK</p>
+                    <p>Farge: svart-oransje</p>
+                    <form>
+                        <label for="size3">Størrelse:
+                            <select name="sizes" id="size3" required>
+                                <option value="" >Størrelse:</option>
+                                <option value="x-small">XS</option>
+                                <option value="small">S</option>
+                                <option value="medium">M</option>
+                                <option value="large">L</option>
+                                <option value="x-large">XL</option>
+                            </select>
+                        </label>
+                        <label for="quantity3">Antall:
+                            <input type="number" name="number" min="0" id="quantity3" required>
+                        </label>
+                    </form>
+                    <a href="checkout.html"><i class="fa-solid fa-trash"></i></a>
+                    <a href="checkout.html" aria-label="Synes godt om"><i class="fa-solid fa-thumbs-up"></i></a>
+                </article>
+
+            </section>
+
+
+            <aside class="relatert">
+                <h4>Relaterte Produkter</h4>
+                <a href="index.html#kampanjeseksjon">Se flere produkter<i class="fa-solid fa-right-long"></i></a>
+                <section class="relatert-scroll">
+                    <article class="produkt-card">
+                        <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                        <a href="product.html">adidas originals</a>
+                        <p>2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                    </article>
+                    <article class="produkt-card">
+                        <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                        <a href="product.html">adidas originals</a>
+                        <p>2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                    </article>
+                    <article class="produkt-card">
+                        <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                        <a href="product.html">adidas originals</a>
+                        <p>2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                    </article>
+                    <article class="produkt-card">
+                        <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                        <a href="product.html">adidas originals</a>
+                        <p>2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                    </article>
+                    <article class="produkt-card">
+                        <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                        <a href="product.html">adidas originals</a>
+                        <p>2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                    </article>
+                </section>
+            </aside>
+            
+
+
+
+            <section class="opplysninger">  
+                <h3>2. DINE OPPLYSNINGER</h3>
+                <form id="adress">
+                    <h4>Leveringsadresse</h4>
+                    <label>
+                        Fornavn* <br>
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]" required placeholder="Nora...">
+                    </label>
+                    <label><br>
+                        Etternavn* <br>
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]" required placeholder="Nordman...">
+                    </label>
+                    <label><br>
+                        Gateadresse* <br>
+                        <input type="text" required placeholder="BRA Veien 4...">
+                    </label>
+                    <label><br>
+                        Postnummer* <br>
+                        <input type="number" min="0001" max="9999" required placeholder="1757">
+                    </label>
+                    <label><br>
+                        Poststed* <br>
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ0-9 ]" required placeholder="Halden">
+                    </label>
+
+                    <h4>Kontaktinformasjon</h4>
+
+                    <label>
+                        E-post* <br>
+                        <input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required placeholder="eksempel@hiof.no"> 
+                    </label>
+
+                    <label> <br>
+                        Telefon <br>
+                        <input type="tel" pattern="[0-9]{8,12}" required placeholder="+4744****"> 
+                    </label>
+                    <label for="lagre-btn" id="lagre-label"> <br>
+                        <input type="submit" value="Lagre" id="lagre-btn"> 
+                    </label>
+                    <a href="checkout.html" id="avbryt">Avbryt</a>
+                            
+                </form>
+
+            </section>
+
+
+            <section class="levering">
+                <h3>3. LEVERING</h3>
+                    
+                <form id="levering-valg">
+                    <label>
+                        <input type="radio" name="levering" id="hent-i-butikk">
+                        <strong>Hent i butikken</strong> <i class="fa-solid fa-box"></i> <br>
+                        Gratis levering- <br> <br> Hent pakken i din nærmeste butikk når den er klar. Du vil motta en SMS med informasjon om når du kan hente pakken. <br>
+                    </label> 
+                   
+                    <label>
+                        <input type="radio" name="levering" id="standard-levering">
+                        <strong>Standard levering</strong> <i class="fa-solid fa-truck-fast"></i> <br>
+                        49kr- <br> <br>Leveres til deg personlig i valgt tidsrom. Leveres til dør på bakkeplan.Du vil motta en SMS med informasjon.<br>
+                        Leveringstid: 3 - 5 virkedager.
+                    </label> 
+                        
+                        
+                    
+                    <label>
+                        <input type="radio" name="levering" id="express-levering">
+                        <strong>Express levering</strong> <i class="fa-solid fa-truck-fast"></i><br>
+                        59kr- <br> <br>Leveres til deg personlig i valgt tidsrom. Leveres til dør på bakkeplan. Du vil motta en SMS med informasjon<br>
+                        Leveringstid: 1 - 3 virkedager.
+                    </label> 
+                        
+
+                </form>
+            </section>
+
+
+            <section class="betaling">
+                <h3>4. Betaling</h3>
+                <form id="betaling-form">
+                    <h4>Betale med kort <i class="fa-solid fa-credit-card"></i></h4>
+
+                    <label>
+                        Kortnummer <br>
+                        <input type="number" name="kortnummer" required placeholder="3453********43">
+                    </label> <br>
+                    <label>
+                        Utløpsdato <br>
+                        <input type="date" name="utløpsdato" required>
+                    </label> <br>
+                    <label>
+                        CVC/CVV <br>
+                        <input type="text" name="cvv/cvc" required placeholder="CVC/CVV">
+                    </label> <br>
+                    <article class="total-kasse">
+                        <h3>Å betal inkl. mva.</h3>
+                        <h4>4890 NOK</h4>
+                        <input type="submit" value="Fullfør kjøp" id="kjøp-btn">
+                        <p>Du bekrefter herved at opplysningene og dokumentene du har
+                            oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                            retten til å heve eller avslutte avtaleforholdet dersom det foreligger
+                            uriktige eller ufullstendige opplysninger.</p>
+                        <label id="brev-sammtykke-kasse"><br>
+                            Ja takk! Send nyhetsbrev til meg 
+                            <input type="checkbox">
+                        </label>
+                        <label  id="sammtykke-kasse" >     
+                            ja, jeg godtar vilkårene                   
+                            <input type="checkbox" required>
+                        </label>
+                            
+                    </article>
+                </form>
+                   
+            </section>
+
+        </main>
+
+
+
+
+
+
+
+        <footer id="global-footer">
+
+            <section class="footer-title">
+                <h3><a href="index.html">ASRINOS</a></h3>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil</p>
+            </section>
+            <div class="footer-flex">
+                <section id="footer-info">
+                    <h4>Kontakt</h4>
+                    <p><i class="fa-solid fa-location-dot"></i><strong id="adresse">Adresse:</strong> B R A Veien 4, 1757 Halden</p>
+
+                    <p><i class="fa-solid fa-phone"></i><strong id="telefon">Telefon:</strong> 69 60 80 00</p>
+
+                    <p><i class="fa-solid fa-envelope"></i><strong id="e-post">E-post:</strong> halden@hiof.no</p>
+
+                    <p><i class="fa-solid fa-clock"></i><strong id="aapning">Åpningstider:</strong> Stenger 15:00</p>
+
+            
+                </section>
+                <section class="footer-snarveier">
+                    <h4>Snarveier</h4>
+                    <ul class="snarveier-ul">
+                        <li><a href="#kampanjeseksjon">Produkter</a></li>
+                        <li><a href="#forside-kategorier">Kategorier</a></li>
+                        <li><a href="mailto:epost@domain.com">Kontakt oss</a></li>
+                    </ul>
+                </section>
+                <section class="footer-sosial">
+                    <h4>Sosiale medier</h4>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://no.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </section>
+            </div>
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asrinos - din butikk for de nyeste og beste produktene.">
+    <title>Product</title>
+    <link href="../ikoner/css/fontawesome.css" rel="stylesheet">
+    <link href="../ikoner/css/brands.css" rel="stylesheet">
+    <link href="../ikoner/css/regular.css" rel="stylesheet">
+    <link href="../ikoner/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header id="global-header">
+            <div id="logo-container">
+                <h1 id="logo"><a href="index.html">ASRINOS</a></h1>
+            </div>
+            <nav id="nav">
+                <ul id="global-ul">
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="index.html#kampanjeseksjon">Produkter</a></li>
+                    <li><a href="index.html#forside-kategorier">Kategorier</a></li>
+                    <li><a href="#footer-info">Kontakt oss</a></li>
+
+                    <li><ul id="nav-ikoner">
+                        <li><a href="checkout.html" aria-label="Gå til handlekurv"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                        <li><a href="product.html" aria-label="Synes godt om"><i class="fa-solid fa-thumbs-up"></i></a></li>
+                        <li><a href="product.html" aria-label="Brukerprofil"><i class="fa-solid fa-user"></i></a></li>
+                    </ul></li>
+
+                </ul>
+                <form id="search-form" role="search">
+                    <label for="search" class="visually-hidden">Søk</label>
+                    <input type="text" id="search" name="search" placeholder="Søke her...">
+                    <button type="submit" aria-label="Søk"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                
+            </nav>
+        </header>
+
+        <main>
+            <section id="breadcrumb-seksjon">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i></li>
+                    <li><a href="index.html#forside-kategorier">Kategori</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i></li>
+                    <li><a href="product.html"><strong>adidas originals</strong></a></li>
+                </ul>
+            </section>
+            <section class="produkt-Pside">
+       
+                <article class="produkt-Pcard">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                </article>
+
+                
+                <div class="andre-bildene">
+                    <article class="produkt-card">
+                        <img src="../img/skobild.jpg" alt="adidas joggesko">
+                    </article>
+
+                    <article class="produkt-card">
+                        <img src="../img/skobild.jpg" alt="adidas joggesko">
+                    </article>
+                    
+                    <article class="produkt-card">
+                        <img src="../img/skobild.jpg" alt="adidas joggesko">
+                    </article>
+                    
+                </div>
+                
+            </section>
+
+            <section class="product-info">
+                <article class="navn-pris">
+                    <a href="product.html">adidas originals</a>
+                    <a href="product.html" id="merkenavn">MERKENAVN</a>
+                    <p>Farge: <strong>svart-oransje</strong> </p>
+                    <p>2399 NOK inkl. mva.</p>
+                    <div>
+                        <label for="size1">
+                            <select name="sizes" id="size1" required>
+                                <option value="">Velg størrelse</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                            </select>
+                        </label>
+                        <label for="submit">
+                            <input type="submit" id="submit" value="Legg i handlekurv"> 
+                            <a href="product.html" aria-label="Synes godt om">
+                            <i class="fa-solid fa-thumbs-up"></i></a>
+                        </label>
+                    </div>
+                </article>
+                <h3 id="materiale-vedlikehold">Materiale og vedlikehold</h3>
+                <ul>
+                    <li><strong>Overmateriale:</strong> Lær</li>
+                    <li><strong>Innermateriale</strong> Tekstil</li>
+                    <li><strong>Dekksåle</strong> Tekstil</li>
+                    <li><strong>Såle</strong> Syntentisk materiale</li>
+                </ul>
+                <h3 id="produktdetaljer">Produktdetaljer</h3>
+                <p id="produktdetaljer-tekst">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+                <h3 id="størrelsestabell">Størrelsestabell</h3>
+                <p id="størrelsestabell-tekst" >Sjekk hvordan din vanlige størrelse konverterer til andre
+                    størrelser i vår størrelsesguide. Husk at dette kun er en
+                    generell guide og at størrelsene kan variere i forhold til
+                    merke og modell.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>EU</th>
+                            <th>UK</th>
+                            <th>US</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>37</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>38</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>39</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>6.5</td>
+                            <td>7.5</td>
+
+                        </tr>
+                        <tr>
+                            <td>40.5</td>
+                            <td>7</td>
+                            <td>8</td>
+
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>7.5</td>
+                            <td>8.5</td>
+
+                        </tr>
+                        <tr>
+                            <td>42</td>
+                            <td>8</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>42.5</td>
+                            <td>8.5</td>
+                            <td>9.5</td>
+                        </tr>
+                        <tr>
+                            <td>43</td>
+                            <td>9</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+        
+
+        
+        <aside class="relatert">
+            <h4>Relaterte Produkter</h4>
+            <a href="index.html#kampanjeseksjon">Se flere produkter <i class="fa-solid fa-right-long"></i></a>
+            <section class="relatert-scroll">
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="relater-pris">2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                </article>
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="relater-pris">2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                </article>
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="relater-pris">2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                </article>
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="relater-pris">2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                </article>
+                <article class="produkt-card">
+                    <a href="product.html"><img src="../img/skobild.jpg" alt="adidas joggesko"></a>
+                    <a href="product.html">adidas originals</a>
+                    <p class="relater-pris">2399 NOK</p>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        <li><i class="fa-regular fa-star"></i></li>
+                        <li><p>765 Reviews</p></li>
+                    </ul>
+                </article>
+            </section>
+        </aside>
+        
+
+
+
+
+
+        <footer id="global-footer">
+
+            <section class="footer-title">
+                <h2><a href="index.html">ASRINOS</a></h2>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil</p>
+            </section>
+            <div class="footer-flex">
+                <section id="footer-info">
+                    <h4>Kontakt</h4>
+                    <p><i class="fa-solid fa-location-dot"></i><strong id="adresse">Adresse:</strong> B R A Veien 4, 1757 Halden</p>
+
+                    <p><i class="fa-solid fa-phone"></i><strong id="telefon">Telefon:</strong> 69 60 80 00</p>
+
+                    <p><i class="fa-solid fa-envelope"></i><strong id="e-post">E-post:</strong> halden@hiof.no</p>
+
+                    <p><i class="fa-solid fa-clock"></i><strong id="aapning">Åpningstider:</strong> Stenger 15:00</p>
+
+            
+                </section>
+                <section class="footer-snarveier">
+                    <h4>Snarveier</h4>
+                    <ul class="snarveier-ul">
+                        <li><a href="#kampanjeseksjon">Produkter</a></li>
+                        <li><a href="#forside-kategorier">Kategorier</a></li>
+                        <li><a href="mailto:epost@domain.com">Kontakt oss</a></li>
+                    </ul>
+                </section>
+                <section class="footer-sosial">
+                    <h4>Sosiale medier</h4>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://no.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </section>
+            </div>
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>
